@@ -437,3 +437,9 @@ enabled = true
 verify_jwt = false
 import_map = "./functions/join-session/deno.json"
 entrypoint = "./functions/join-session/index.ts"
+
+[functions.get-my-assignment]
+enabled = true
+verify_jwt = false
+import_map = "./functions/get-my-assignment/deno.json"
+entrypoint = "./functions/get-my-assignment/index.ts"
