@@ -449,3 +449,15 @@ enabled = true
 verify_jwt = false
 import_map = "./functions/recover-assignment/deno.json"
 entrypoint = "./functions/recover-assignment/index.ts"
+
+[functions.get-participants]
+enabled = true
+verify_jwt = false
+import_map = "./functions/get-participants/deno.json"
+entrypoint = "./functions/get-participants/index.ts"
+
+[functions.close-session]
+enabled = true
+verify_jwt = false
+import_map = "./functions/close-session/deno.json"
+entrypoint = "./functions/close-session/index.ts"
