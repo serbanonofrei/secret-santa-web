@@ -461,3 +461,9 @@ enabled = true
 verify_jwt = false
 import_map = "./functions/close-session/deno.json"
 entrypoint = "./functions/close-session/index.ts"
+
+[functions.list-colors]
+enabled = true
+verify_jwt = false
+import_map = "./functions/list-colors/deno.json"
+entrypoint = "./functions/list-colors/index.ts"
